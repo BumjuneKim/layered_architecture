@@ -69,9 +69,9 @@ module.exports = {
             return false;
         } else if (email[0] === "-") {
             return false;
-        } else if (!/^[a-z0-9+_-]+$/gi.test(localPart)) {
+        } else if (!/^[a-z0-9+_-]+$/gi.tests(localPart)) {
             return false;
-        } else if (!/^[a-z0-9.-]+$/gi.test(domain)) {
+        } else if (!/^[a-z0-9.-]+$/gi.tests(domain)) {
             return false;
         }
 
