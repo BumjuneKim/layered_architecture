@@ -1,0 +1,17 @@
+{
+  "name": "layered_architecture",
+  "version": "1.0.0",
+  "description": "1. Repository 패턴     > ![pic](images/repository_pattern.png) 2. Layered 패턴    > ![pic](images/layered_pattern.png) 3. Master Slave 패턴    > ![pic](images/master_slave_pattern.png) 4. MVC 패턴    > ![pic](images/mvc_pattern.png) 5. Micro Service 패턴    > ![pic](images/micro_service_pattern.png) 6. Client Server 패턴    > ![pic](images/client_server_pattern.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.5.0",
+    "sequelize": "^6.32.1"
+  }
+}
